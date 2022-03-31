@@ -1,0 +1,2 @@
+# SetState
+include &amp;lt;GUIConstantsEx.au3&amp;gt;&lt;BR>#include &amp;lt;GUIListBox.au3&amp;gt;&lt;BR>#include &amp;lt;WindowsConstants.au3&amp;gt;&lt;BR>#Region ### START Koda GUI section ### Form=&lt;BR>$Form1 = GUICreate("list", 592, 431, 192, 132)&lt;BR>GUISetIcon("C:Program Files (x86)AutoIt3TryitHag1Play.ico", -1)&lt;BR>GUISetBkColor(0xFFFF00)&lt;BR>$List1 = GUICtrlCreateList("", 56, 384, 401, 86)&lt;BR>GUICtrlSetData(-1, "1.exe|2.exe|3.exe|4.exe|5.exe")&lt;BR>GUISetState(@SW_SHOW)&lt;BR>#EndRegion ### END Koda GUI section ###&lt;/P>
